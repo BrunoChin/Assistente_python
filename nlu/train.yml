@@ -1,0 +1,64 @@
+commands:
+  #Time
+  - command:
+    input: Que horas são?
+    entity: time
+    action: getTime
+  - command:
+    input: Quais são as horas?
+    entity: time
+    action: getTime
+  - command:
+    input: Qual a horas?
+    entity: time
+    action: getTime
+  - command:
+    input: Me diga as horas.
+    entity: time
+    action: getTime
+  #Date
+  - command:
+    input: Qual é a data de hoja?
+    entity: time
+    action: getDate
+  - command:
+    input: Me diga a data.
+    entity: time
+    action: getDate
+  - command:
+    input: A data por favor
+    entity: time
+    action: getDate
+  #Conversation
+  - command:
+    input: oi
+    entity: Greet
+    action:
+  - command:
+    input: Bom dia
+    entity: Greet
+    action:
+  - command:
+    input: Boa noite
+    entity: Greet
+    action: 
+  - command:
+    input: Boa tarde
+    entity: Greet
+    action:
+  - command:
+    input: Como vai?
+    entity: Greet
+    action:
+  - command:
+    input: Como está?
+    entity: Greet
+    action:
+  - command:
+    input: Tudo bem?
+    entity: Greet
+    action:
+  - command:
+    input: Qual seu nome?
+    entity: Greet
+    action:

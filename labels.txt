@@ -1,0 +1,3 @@
+time/getDate
+time/getTime
+Greet/None
